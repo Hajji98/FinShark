@@ -11,8 +11,8 @@ namespace api.Controllers
 {
     [Route("api/StockModel")]
     [ApiController]
-    public class StockController : ControllerBase
-    {
+    public class StockController : ControllerBase {
+    
        private readonly ApplicationDBContext _context;
         public StockController(ApplicationDBContext context)
         {
@@ -25,5 +25,16 @@ namespace api.Controllers
         }
 
         [HttpGet("id")]
+        public IActionResult GetById([FromRoute] int id )
+        {
+            var stocks = _context.StockModel.Find(id);
+
+            if (stocks == null)
+
+            return NotFound();
+
+            return Ok(stocks);
+        }
     }
+    
 }
