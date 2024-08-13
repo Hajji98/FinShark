@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Sk9mWLlzHs=",
+  "dgSpecHash": "2eALYEoEXfM=",
   "success": true,
-  "projectFilePath": "D:\\SVB_projects\\SVBprojects_dotnet\\TRaining\\FinShark\\api\\api.csproj",
+  "projectFilePath": "D:\\SVB_projects\\SVBprojects_dotnet\\TRaining\\Finshark\\api\\api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aliha\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\aliha\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
